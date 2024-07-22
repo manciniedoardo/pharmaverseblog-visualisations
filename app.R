@@ -30,7 +30,7 @@ ui <- fluidPage(
         
         br(),
         
-        h3("Here are some summary stats for the pharmaversblog:"),
+        h3("Here are some summary stats for the pharmaverseblog:"),
         
         br(),
         
@@ -79,12 +79,17 @@ ui <- fluidPage(
           width = 4
         )
         
-        
       ),
       tabPanel("Posts by Month", plotlyOutput("posts_by_month")),
       tabPanel("Posts by Author", plotlyOutput("posts_by_author")),
       tabPanel("Posts by Category", plotlyOutput("posts_by_category")),
-      tabPanel("Raw Data", DT::DTOutput("posts"))
+      tabPanel("Raw Data", DT::DTOutput("posts")),
+      tabPanel(
+        "About",
+         br(),
+         p("This app was created by Edoardo Mancini."),
+         tags$a(href="https://github.com/manciniedoardo/pharmaverseblog-visualisations", "Source Code")
+      )
     )
   )
 )
