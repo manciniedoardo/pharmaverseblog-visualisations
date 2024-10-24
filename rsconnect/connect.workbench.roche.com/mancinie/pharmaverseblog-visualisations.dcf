@@ -1,0 +1,13 @@
+name: pharmaverseblog-visualisations
+title: pharmaverseblog-visualisations
+username: mancinie
+account: mancinie
+server: connect.workbench.roche.com
+hostUrl: https://connect.workbench.roche.com/__api__
+appId: 9803
+bundleId: 132378
+url: https://connect.workbench.roche.com/content/e60e9f5b-20bc-48c2-88cd-395578ea0909/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: renv.lock
